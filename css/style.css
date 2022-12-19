@@ -1,0 +1,39 @@
+.jumbotron {
+    background-image: url(../assets/ml.png);
+    background-size:contain;
+    height: 330px;
+}
+.jumbotron h2, .jumbotron h3 {
+    color: white;
+}
+.hiwatch-card, .hicode-card {
+    margin-bottom: 20px;
+}
+.widget h4 {
+    font-size: 16px;
+}
+.widget-list li a:hover {
+    text-decoration: underline;
+}
+.widget .card-header a::after {
+    content: "+";
+    position: absolute;
+    right: 40px;
+    top: 15px;
+}
+.widget .card-header a:hover:focus {
+    text-decoration: none;
+}
+.widget-list {
+    padding: 0 21px;
+}
+.widget-list li {
+    margin: 5px 0;
+}
+#footer-row {
+    padding: 0px 50px;
+}
+.navbar .navbar-brand img {
+    width:25px;
+    height: 25px;
+}
